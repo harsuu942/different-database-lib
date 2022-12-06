@@ -290,6 +290,7 @@ class _MyHomePageState extends State<MyHomePage> {
     taskTitle.text = value.taskTitle;
     taskDescription.text = value.taskDescription;
     priority = value.taskTypes;
+    subTask=value.subTaskCount;
     subTaskCount.text = value.subTaskCount.toString();
     subTaskTitle.text = value.subTaskTitle;
     subTaskDescription.text = value.subTaskDescription;
